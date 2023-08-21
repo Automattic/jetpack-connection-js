@@ -30,7 +30,7 @@
 		"prop-types": "^15.7.2"
 	},
 	"devDependencies": {
-		"@automattic/jetpack-base-styles": "^0.6.5",
+		"@automattic/jetpack-base-styles": "^0.6.6-alpha",
 		"@babel/core": "7.22.9",
 		"@babel/preset-react": "7.22.5",
 		"@storybook/addon-actions": "7.1.0",
