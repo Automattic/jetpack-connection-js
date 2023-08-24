@@ -14,7 +14,7 @@
 	"author": "Automattic",
 	"license": "GPL-2.0-or-later",
 	"dependencies": {
-		"@automattic/jetpack-analytics": "^0.1.27-alpha",
+		"@automattic/jetpack-analytics": "^0.1.27",
 		"@automattic/jetpack-api": "^0.16.1",
 		"@automattic/jetpack-components": "^0.41.2-alpha",
 		"@automattic/jetpack-config": "^0.1.21",
@@ -30,7 +30,7 @@
 		"prop-types": "^15.7.2"
 	},
 	"devDependencies": {
-		"@automattic/jetpack-base-styles": "^0.6.6-alpha",
+		"@automattic/jetpack-base-styles": "^0.6.6",
 		"@babel/core": "7.22.9",
 		"@babel/preset-react": "7.22.5",
 		"@storybook/addon-actions": "7.1.0",
