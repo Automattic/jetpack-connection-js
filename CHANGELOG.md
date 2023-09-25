@@ -2,12 +2,9 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [0.30.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [0.30.0] - 2023-09-25
 ### Added
-- Handle connection error codes and display proper error messages. Enabled for the "private network" error only at the moment.
+- Handle connection error codes and display proper error messages. Enabled for the "private network" error only at the moment. [#32898]
 
 ## [0.29.10] - 2023-09-13
 ### Changed
@@ -635,7 +632,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[0.30.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v0.29.10...v0.30.0-alpha
+[0.30.0]: https://github.com/Automattic/jetpack-connection-js/compare/v0.29.10...v0.30.0
 [0.29.10]: https://github.com/Automattic/jetpack-connection-js/compare/v0.29.9...v0.29.10
 [0.29.9]: https://github.com/Automattic/jetpack-connection-js/compare/v0.29.8...v0.29.9
 [0.29.8]: https://github.com/Automattic/jetpack-connection-js/compare/v0.29.7...v0.29.8
