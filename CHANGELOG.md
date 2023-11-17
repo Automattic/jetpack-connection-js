@@ -6,6 +6,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Connection: Add optional quantity to product checkout workflow hook
+
 ## [0.30.7] - 2023-11-14
 ### Changed
 - Updated package dependencies. [#34093]
