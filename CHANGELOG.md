@@ -2,6 +2,13 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
+## [0.31.0-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Allow using blog ID instead of site suffix in checkout URL.
+
 ## [0.30.12] - 2024-01-04
 ### Changed
 - Updated package dependencies. [#34815] [#34816]
@@ -680,6 +687,7 @@
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
+[0.31.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v0.30.12...v0.31.0-alpha
 [0.30.12]: https://github.com/Automattic/jetpack-connection-js/compare/v0.30.11...v0.30.12
 [0.30.11]: https://github.com/Automattic/jetpack-connection-js/compare/v0.30.10...v0.30.11
 [0.30.10]: https://github.com/Automattic/jetpack-connection-js/compare/v0.30.9...v0.30.10
