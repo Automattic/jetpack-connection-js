@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Allow using blog ID instead of site suffix in checkout URL.
+- Updated package dependencies.
 
 ## [0.31.2] - 2024-01-29
 ### Changed
