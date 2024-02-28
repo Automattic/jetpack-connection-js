@@ -15,7 +15,7 @@
 	"license": "GPL-2.0-or-later",
 	"dependencies": {
 		"@automattic/jetpack-analytics": "^0.1.29",
-		"@automattic/jetpack-api": "^0.16.10",
+		"@automattic/jetpack-api": "^0.17.0-alpha",
 		"@automattic/jetpack-components": "^0.49.0-alpha",
 		"@automattic/jetpack-config": "^0.1.24",
 		"@wordpress/base-styles": "4.42.0",
