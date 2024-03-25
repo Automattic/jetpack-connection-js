@@ -2,12 +2,9 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [0.33.4-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [0.33.4] - 2024-03-25
 ### Fixed
-- Fix some redirect after purchase behavior when site is not connected
+- Fix some redirect after purchase behavior when site is not connected [#36448]
 
 ## [0.33.3] - 2024-03-12
 ### Changed
@@ -737,7 +734,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[0.33.4-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v0.33.3...v0.33.4-alpha
+[0.33.4]: https://github.com/Automattic/jetpack-connection-js/compare/v0.33.3...v0.33.4
 [0.33.3]: https://github.com/Automattic/jetpack-connection-js/compare/v0.33.2...v0.33.3
 [0.33.2]: https://github.com/Automattic/jetpack-connection-js/compare/v0.33.1...v0.33.2
 [0.33.1]: https://github.com/Automattic/jetpack-connection-js/compare/v0.33.0...v0.33.1
