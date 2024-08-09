@@ -6,6 +6,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- React 19 compatibility: Making sure useRef includes an argument.
+
 ### Removed
 - Tests: Removed react-test-renderer.
 
