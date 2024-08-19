@@ -2,15 +2,12 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [0.35.2-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [0.35.2] - 2024-08-19
 ### Changed
-- Updated package dependencies.
+- Updated package dependencies. [#38893]
 
 ### Fixed
-- Lossless image optimization for images (should improve performance with no visible changes).
+- Lossless image optimization for images (should improve performance with no visible changes). [#38750]
 
 ## [0.35.1] - 2024-08-15
 ### Changed
@@ -830,7 +827,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[0.35.2-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v0.35.1...v0.35.2-alpha
+[0.35.2]: https://github.com/Automattic/jetpack-connection-js/compare/v0.35.1...v0.35.2
 [0.35.1]: https://github.com/Automattic/jetpack-connection-js/compare/v0.35.0...v0.35.1
 [0.35.0]: https://github.com/Automattic/jetpack-connection-js/compare/v0.34.2...v0.35.0
 [0.34.2]: https://github.com/Automattic/jetpack-connection-js/compare/v0.34.1...v0.34.2
