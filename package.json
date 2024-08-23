@@ -14,9 +14,9 @@
 	"author": "Automattic",
 	"license": "GPL-2.0-or-later",
 	"dependencies": {
-		"@automattic/jetpack-analytics": "^0.1.31-alpha",
+		"@automattic/jetpack-analytics": "^0.1.31",
 		"@automattic/jetpack-api": "^0.17.11",
-		"@automattic/jetpack-components": "^0.55.10-alpha",
+		"@automattic/jetpack-components": "^0.55.10",
 		"@automattic/jetpack-config": "^0.1.24",
 		"@automattic/jetpack-script-data": "^0.1.2",
 		"@wordpress/base-styles": "5.5.0",
@@ -31,7 +31,7 @@
 		"prop-types": "^15.7.2"
 	},
 	"devDependencies": {
-		"@automattic/jetpack-base-styles": "^0.6.30-alpha",
+		"@automattic/jetpack-base-styles": "^0.6.30",
 		"@babel/core": "7.24.7",
 		"@babel/preset-react": "7.24.7",
 		"@storybook/addon-actions": "8.2.9",
