@@ -1,6 +1,6 @@
 {
 	"name": "@automattic/jetpack-connection",
-	"version": "0.35.6-alpha",
+	"version": "0.35.6",
 	"description": "Jetpack Connection Component",
 	"homepage": "https://github.com/Automattic/jetpack/tree/HEAD/projects/js-packages/connection/#readme",
 	"bugs": {
@@ -16,7 +16,7 @@
 	"dependencies": {
 		"@automattic/jetpack-analytics": "^0.1.31",
 		"@automattic/jetpack-api": "^0.17.12",
-		"@automattic/jetpack-components": "^0.55.14-alpha",
+		"@automattic/jetpack-components": "^0.55.14",
 		"@automattic/jetpack-config": "^0.1.25",
 		"@automattic/jetpack-script-data": "^0.1.2",
 		"@wordpress/base-styles": "5.6.0",
