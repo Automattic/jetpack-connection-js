@@ -6,6 +6,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Enable test coverage.
+
 ### Changed
 - Skip pricing page when connecting via block editor
 
