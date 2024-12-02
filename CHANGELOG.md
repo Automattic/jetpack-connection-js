@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Changed text domain from 'jetpack' to 'jetpack-connection-js'.
+- Updated package dependencies.
 
 ## [0.35.20] - 2024-11-26
 ### Changed
