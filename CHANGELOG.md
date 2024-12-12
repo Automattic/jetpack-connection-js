@@ -6,6 +6,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Updated package dependencies.
+
 ## [0.36.1] - 2024-12-09
 ### Changed
 - Internal updates.
