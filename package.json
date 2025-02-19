@@ -1,6 +1,6 @@
 {
 	"name": "@automattic/jetpack-connection",
-	"version": "0.36.7",
+	"version": "0.37.0-alpha",
 	"description": "Jetpack Connection Component",
 	"homepage": "https://github.com/Automattic/jetpack/tree/HEAD/projects/js-packages/connection/#readme",
 	"bugs": {
@@ -15,7 +15,7 @@
 	"license": "GPL-2.0-or-later",
 	"dependencies": {
 		"@automattic/jetpack-analytics": "^0.1.35",
-		"@automattic/jetpack-api": "^0.18.0",
+		"@automattic/jetpack-api": "^0.19.0-alpha",
 		"@automattic/jetpack-components": "^0.67.0",
 		"@automattic/jetpack-config": "^0.1.28",
 		"@automattic/jetpack-script-data": "^0.2.1-alpha",
