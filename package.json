@@ -16,7 +16,7 @@
 	"dependencies": {
 		"@automattic/jetpack-analytics": "^0.1.35",
 		"@automattic/jetpack-api": "^0.19.0-alpha",
-		"@automattic/jetpack-components": "^0.67.0",
+		"@automattic/jetpack-components": "^0.67.1-alpha",
 		"@automattic/jetpack-config": "^0.1.28",
 		"@automattic/jetpack-script-data": "^0.2.1-alpha",
 		"@wordpress/base-styles": "5.17.0",
@@ -34,7 +34,7 @@
 		"@automattic/jetpack-base-styles": "^0.6.42",
 		"@babel/core": "7.26.0",
 		"@babel/preset-react": "7.26.3",
-		"@storybook/addon-actions": "8.4.7",
+		"@storybook/addon-actions": "8.5.8",
 		"@testing-library/dom": "10.4.0",
 		"@testing-library/react": "16.2.0",
 		"@testing-library/user-event": "14.6.1",
@@ -43,7 +43,7 @@
 		"jest-environment-jsdom": "29.7.0",
 		"react": "18.3.1",
 		"react-dom": "18.3.1",
-		"storybook": "8.4.7"
+		"storybook": "8.5.8"
 	},
 	"peerDependencies": {
 		"react": "^18.0.0",

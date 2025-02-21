@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - moving the api endpoint for unlinking the user to the connection package
+- Update package dependencies.
 
 ## [0.36.7] - 2025-02-17
 ### Changed
