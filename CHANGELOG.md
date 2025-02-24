@@ -6,6 +6,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Connection: Disconnection connection ower will disconnect all other users first.
+
 ### Changed
 - moving the api endpoint for unlinking the user to the connection package
 - Update package dependencies.
