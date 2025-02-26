@@ -2,9 +2,12 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [0.37.1-alpha] - unreleased
+## [0.38.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Removed
+- Remove register_nonce from site connection.
 
 ### Fixed
 - Improve connection owner unlink modal responsiveness.
@@ -949,7 +952,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[0.37.1-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v0.37.0...v0.37.1-alpha
+[0.38.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v0.37.0...v0.38.0-alpha
 [0.37.0]: https://github.com/Automattic/jetpack-connection-js/compare/v0.36.7...v0.37.0
 [0.36.7]: https://github.com/Automattic/jetpack-connection-js/compare/v0.36.6...v0.36.7
 [0.36.6]: https://github.com/Automattic/jetpack-connection-js/compare/v0.36.5...v0.36.6
