@@ -2,6 +2,13 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
+## [0.39.11-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Fixed
+- Code: Update stylesheets to use WordPress font styles.
+
 ## [0.39.10] - 2025-04-07
 ### Changed
 - Code: First pass of style coding standards. [#42734]
@@ -996,6 +1003,7 @@
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
+[0.39.11-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v0.39.10...v0.39.11-alpha
 [0.39.10]: https://github.com/Automattic/jetpack-connection-js/compare/v0.39.9...v0.39.10
 [0.39.9]: https://github.com/Automattic/jetpack-connection-js/compare/v0.39.8...v0.39.9
 [0.39.8]: https://github.com/Automattic/jetpack-connection-js/compare/v0.39.7...v0.39.8
