@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Linting: Fix more Stylelint violations.
+- My Jetpack: Fix TS type checking and the corresponding errors
 
 ## [0.39.11] - 2025-04-14
 ### Fixed
