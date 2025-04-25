@@ -6,6 +6,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Connection links: mark external links with extra markup.
+
 ### Fixed
 - Linting: Fix more Stylelint violations.
 - Linting: Remove outdated vendor prefixes in stylesheets.
