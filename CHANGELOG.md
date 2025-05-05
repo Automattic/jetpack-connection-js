@@ -2,16 +2,13 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [0.39.13-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [0.39.13] - 2025-05-05
 ### Changed
-- Update package dependencies.
+- Update package dependencies. [#43326]
 
 ### Fixed
-- Linting: Address final rules in WordPress Stylelint config.
-- Linting: Do additional stylesheet cleanup.
+- Linting: Address final rules in WordPress Stylelint config. [#43296]
+- Linting: Do additional stylesheet cleanup. [#43247]
 
 ## [0.39.12] - 2025-04-28
 ### Changed
@@ -1022,7 +1019,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[0.39.13-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v0.39.12...v0.39.13-alpha
+[0.39.13]: https://github.com/Automattic/jetpack-connection-js/compare/v0.39.12...v0.39.13
 [0.39.12]: https://github.com/Automattic/jetpack-connection-js/compare/v0.39.11...v0.39.12
 [0.39.11]: https://github.com/Automattic/jetpack-connection-js/compare/v0.39.10...v0.39.11
 [0.39.10]: https://github.com/Automattic/jetpack-connection-js/compare/v0.39.9...v0.39.10
