@@ -14,7 +14,7 @@
 	"author": "Automattic",
 	"license": "GPL-2.0-or-later",
 	"dependencies": {
-		"@automattic/jetpack-analytics": "^0.1.36",
+		"@automattic/jetpack-analytics": "^0.1.37-alpha",
 		"@automattic/jetpack-api": "^0.20.3",
 		"@automattic/jetpack-components": "^0.73.4-alpha",
 		"@automattic/jetpack-config": "^0.1.29",
@@ -27,7 +27,7 @@
 		"@wordpress/i18n": "5.24.0",
 		"@wordpress/icons": "10.24.0",
 		"clsx": "2.1.1",
-		"debug": "4.4.0",
+		"debug": "4.4.1",
 		"prop-types": "^15.7.2"
 	},
 	"devDependencies": {

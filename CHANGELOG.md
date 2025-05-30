@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - sass: `@use` rather than `@import` for `@wordpress/base-styles`.
+- Update package dependencies.
 
 ## [0.39.17] - 2025-05-26
 ### Changed
