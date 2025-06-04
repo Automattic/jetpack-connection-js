@@ -2,6 +2,13 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
+## [1.1.0-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Added
+- Connection: error handling for protected owner on WPcom.
+
 ## [1.0.0] - 2025-06-03
 ### Changed
 - Update package dependencies. [#43718] [#43734]
@@ -1044,6 +1051,7 @@
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
+[1.1.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v1.0.0...v1.1.0-alpha
 [1.0.0]: https://github.com/Automattic/jetpack-connection-js/compare/v0.39.18...v1.0.0
 [0.39.18]: https://github.com/Automattic/jetpack-connection-js/compare/v0.39.17...v0.39.18
 [0.39.17]: https://github.com/Automattic/jetpack-connection-js/compare/v0.39.16...v0.39.17
