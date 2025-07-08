@@ -18,7 +18,7 @@
 		"@automattic/jetpack-api": "^1.0.5",
 		"@automattic/jetpack-components": "^1.1.11",
 		"@automattic/jetpack-config": "^1.0.3",
-		"@automattic/jetpack-script-data": "^0.4.4",
+		"@automattic/jetpack-script-data": "^0.5.0-alpha",
 		"@wordpress/base-styles": "6.2.0",
 		"@wordpress/browserslist-config": "6.26.0",
 		"@wordpress/components": "29.12.0",
