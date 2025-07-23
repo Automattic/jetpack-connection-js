@@ -2,12 +2,9 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [1.3.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [1.3.0] - 2025-07-23
 ### Changed
-- Connection: removed hardcoded custom errors and added support for dynamic errors.
+- Connection: removed hardcoded custom errors and added support for dynamic errors. [#44281]
 
 ## [1.2.14] - 2025-07-21
 ### Changed
@@ -1115,7 +1112,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[1.3.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v1.2.14...v1.3.0-alpha
+[1.3.0]: https://github.com/Automattic/jetpack-connection-js/compare/v1.2.14...v1.3.0
 [1.2.14]: https://github.com/Automattic/jetpack-connection-js/compare/v1.2.13...v1.2.14
 [1.2.13]: https://github.com/Automattic/jetpack-connection-js/compare/v1.2.12...v1.2.13
 [1.2.12]: https://github.com/Automattic/jetpack-connection-js/compare/v1.2.11...v1.2.12
