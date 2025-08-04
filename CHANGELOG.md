@@ -6,6 +6,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Add from argument to user connection url.
+
 ### Changed
 - My Jetpack: Unify the user connection flow with a unified screen.
 
