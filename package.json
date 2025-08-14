@@ -29,7 +29,7 @@
 	"dependencies": {
 		"@automattic/jetpack-analytics": "^1.0.4",
 		"@automattic/jetpack-api": "^1.0.8",
-		"@automattic/jetpack-components": "^1.1.19",
+		"@automattic/jetpack-components": "^1.2.0-alpha",
 		"@automattic/jetpack-config": "^1.0.4",
 		"@automattic/jetpack-script-data": "^0.5.1",
 		"@wordpress/base-styles": "6.4.0",
