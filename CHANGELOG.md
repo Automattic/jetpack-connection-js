@@ -2,12 +2,9 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [1.4.4-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [1.4.4] - 2025-08-18
 ### Added
-- Added typecheck script to ensure that the TS files are type-checked.
+- Added type-check script to ensure that the TS files are type-checked. [#44795]
 
 ## [1.4.3] - 2025-08-14
 ### Changed
@@ -1149,7 +1146,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[1.4.4-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.3...v1.4.4-alpha
+[1.4.4]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.3...v1.4.4
 [1.4.3]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.2...v1.4.3
 [1.4.2]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.1...v1.4.2
 [1.4.1]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.0...v1.4.1
