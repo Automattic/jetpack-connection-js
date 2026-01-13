@@ -6,9 +6,6 @@
 
 This is an alpha version! The changes listed here are not final.
 
-### Removed
-- =
-
 ## [1.4.25] - 2026-01-07
 ### Changed
 - Update package dependencies. [#46456]
