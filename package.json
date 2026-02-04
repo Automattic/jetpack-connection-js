@@ -1,6 +1,6 @@
 {
 	"name": "@automattic/jetpack-connection",
-	"version": "1.4.32",
+	"version": "1.4.33-alpha",
 	"description": "Jetpack Connection Component",
 	"homepage": "https://github.com/Automattic/jetpack/tree/HEAD/projects/js-packages/connection/#readme",
 	"bugs": {
@@ -20,7 +20,8 @@
 	],
 	"type": "module",
 	"exports": {
-		".": "./index.jsx"
+		".": "./index.jsx",
+		"./use-connection": "./components/use-connection/index.jsx"
 	},
 	"scripts": {
 		"test": "NODE_OPTIONS=--experimental-vm-modules jest",
@@ -30,7 +31,7 @@
 	"dependencies": {
 		"@automattic/jetpack-analytics": "^1.0.7",
 		"@automattic/jetpack-api": "^1.0.16",
-		"@automattic/jetpack-components": "^1.4.11",
+		"@automattic/jetpack-components": "^1.4.12-alpha",
 		"@automattic/jetpack-config": "^1.0.6",
 		"@automattic/jetpack-script-data": "^0.5.4",
 		"@wordpress/base-styles": "6.15.0",
