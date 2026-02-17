@@ -8,8 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Automattic/jetpack.git",
-		"directory": "projects/js-packages/connection"
+		"url": "git+https://github.com/Automattic/jetpack-connection-js.git"
 	},
 	"license": "GPL-2.0-or-later",
 	"author": "Automattic",
@@ -29,11 +28,11 @@
 		"typecheck": "tsc --noEmit"
 	},
 	"dependencies": {
-		"@automattic/jetpack-analytics": "^1.0.7",
-		"@automattic/jetpack-api": "^1.0.16",
+		"@automattic/jetpack-analytics": "^1.0.8-alpha",
+		"@automattic/jetpack-api": "^1.0.17-alpha",
 		"@automattic/jetpack-components": "^1.4.13-alpha",
-		"@automattic/jetpack-config": "^1.0.6",
-		"@automattic/jetpack-script-data": "^0.5.4",
+		"@automattic/jetpack-config": "^1.0.7-alpha",
+		"@automattic/jetpack-script-data": "^0.5.5-alpha",
 		"@wordpress/base-styles": "6.15.0",
 		"@wordpress/browserslist-config": "6.39.0",
 		"@wordpress/components": "32.1.0",
