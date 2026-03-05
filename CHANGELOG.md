@@ -6,6 +6,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Switch to Native TypeScript compiler based on Go.
+
 ### Fixed
 - Fix TS errors detected by tsgo.
 
