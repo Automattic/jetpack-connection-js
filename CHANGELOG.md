@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
+- Replace deprecated jetpack-components Spinner with WordPress Core Spinner.
 
 ## [1.4.47] - 2026-04-27
 ### Changed
