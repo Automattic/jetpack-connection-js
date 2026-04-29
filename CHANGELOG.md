@@ -7,6 +7,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- ConnectScreen: rewrite the private-network error message to reference WordPress.com (the connection target) instead of Jetpack, so the copy reads consistently for any plugin that uses the connection package.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Replace deprecated jetpack-components Spinner with WordPress Core Spinner.
 
