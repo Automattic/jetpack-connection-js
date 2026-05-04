@@ -2,14 +2,11 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [1.4.48-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [1.4.48] - 2026-05-04
 ### Changed
-- ConnectScreen: rewrite the private-network error message to reference WordPress.com (the connection target) instead of Jetpack, so the copy reads consistently for any plugin that uses the connection package.
-- Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
-- Replace deprecated jetpack-components Spinner with WordPress Core Spinner.
+- ConnectScreen: Rewrite the private-network error message to reference WordPress.com (the connection target) instead of Jetpack, so the copy reads consistently for any plugin that uses the connection package. [#48263]
+- Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency. [#48225]
+- Replace deprecated jetpack-components Spinner with WordPress Core Spinner. [#47451]
 
 ## [1.4.47] - 2026-04-27
 ### Changed
@@ -1333,7 +1330,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[1.4.48-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.47...v1.4.48-alpha
+[1.4.48]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.47...v1.4.48
 [1.4.47]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.46...v1.4.47
 [1.4.46]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.45...v1.4.46
 [1.4.45]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.44...v1.4.45
