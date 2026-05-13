@@ -2,13 +2,16 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [1.4.49-alpha] - unreleased
+## [1.4.50-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
-- Components: Use Link from `@wordpress/ui` instead of ExternalLink.
 - Update package dependencies.
+
+## [1.4.49] - 2026-05-11
+### Changed
+- Components: Use Link from `@wordpress/ui` instead of ExternalLink. [#48529]
 
 ## [1.4.48] - 2026-05-04
 ### Changed
@@ -1338,7 +1341,8 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[1.4.49-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.48...v1.4.49-alpha
+[1.4.50-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.49...v1.4.50-alpha
+[1.4.49]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.48...v1.4.49
 [1.4.48]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.47...v1.4.48
 [1.4.47]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.46...v1.4.47
 [1.4.46]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.45...v1.4.46
