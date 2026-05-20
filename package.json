@@ -47,7 +47,7 @@
 		"prop-types": "^15.7.2"
 	},
 	"devDependencies": {
-		"@automattic/jetpack-base-styles": "^1.2.3",
+		"@automattic/jetpack-base-styles": "^1.2.4-alpha",
 		"@babel/core": "7.29.0",
 		"@babel/preset-react": "7.28.5",
 		"@testing-library/dom": "10.4.1",
