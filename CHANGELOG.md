@@ -10,6 +10,9 @@ This is an alpha version! The changes listed here are not final.
 - Add direct useProductCheckoutWorkflow hook export
 - Expose the useConnectionErrorNotice hook (and ConnectionError component) via a dedicated sub-path so consumers can opt out of the full package barrel.
 
+### Changed
+- Connection: Migrate ActionButton, Button, and Text consumers off @automattic/jetpack-components to @wordpress/ui equivalents; brings the package to zero migration-relevant jetpack-components imports.
+
 ## [1.4.52] - 2026-05-21
 ### Changed
 - Update package dependencies. [#48405]
