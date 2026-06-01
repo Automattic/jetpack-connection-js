@@ -2,13 +2,10 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [1.4.54-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [1.4.54] - 2026-06-01
 ### Changed
-- Connection: Migrate ActionButton, Button, and Text consumers off @automattic/jetpack-components to @wordpress/ui equivalents; brings the package to zero migration-relevant jetpack-components imports.
-- Update package dependencies.
+- Connection: Migrate ActionButton, Button, and Text consumers off @automattic/jetpack-components to @wordpress/ui equivalents; brings the package to zero migration-relevant jetpack-components imports. [#49099]
+- Update package dependencies. [#48404]
 
 ## [1.4.53] - 2026-05-25
 ### Added
@@ -1360,7 +1357,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[1.4.54-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.53...v1.4.54-alpha
+[1.4.54]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.53...v1.4.54
 [1.4.53]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.52...v1.4.53
 [1.4.52]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.51...v1.4.52
 [1.4.51]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.50...v1.4.51
