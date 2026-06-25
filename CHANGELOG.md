@@ -2,12 +2,9 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [1.4.65-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [1.4.65] - 2026-06-25
 ### Fixed
-- Connect screen: accept React synthetic events on the connect button click handler to satisfy the `@wordpress/ui` 0.15 Button onClick type.
+- Connect screen: Accept React synthetic events on the connect button click handler to satisfy the `@wordpress/ui` 0.15 Button `onClick` type. [#49795]
 
 ## [1.4.64] - 2026-06-24
 ### Changed
@@ -1404,7 +1401,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[1.4.65-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.64...v1.4.65-alpha
+[1.4.65]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.64...v1.4.65
 [1.4.64]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.63...v1.4.64
 [1.4.63]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.62...v1.4.63
 [1.4.62]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.61...v1.4.62
