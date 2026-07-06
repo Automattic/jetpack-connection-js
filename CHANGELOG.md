@@ -2,13 +2,10 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [1.5.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [1.5.0] - 2026-07-06
 ### Changed
-- Connection errors: useConnectionErrorNotice now owns CTA/action resolution and returns resolved actions, so consumers no longer re-derive copy/handlers from error_data. No change to which errors are surfaced.
-- Update package dependencies.
+- Make `useConnectionErrorNotice` own CTA and action resolution and return resolved actions, so consumers no longer re-derive copy and handlers from `error_data`. [#50081]
+- Update package dependencies. [#50097] [#50183] [#50212]
 
 ## [1.4.66] - 2026-06-26
 ### Changed
@@ -1413,7 +1410,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[1.5.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.66...v1.5.0-alpha
+[1.5.0]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.66...v1.5.0
 [1.4.66]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.65...v1.4.66
 [1.4.65]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.64...v1.4.65
 [1.4.64]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.63...v1.4.64
