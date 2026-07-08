@@ -6,6 +6,10 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Add a connection health-check thunk that surfaces broken-connection errors through the shared connection-error notice.
+- Add an optional context prop to the connection error notice so consumers can name the affected feature above the shared cause and action.
+
 ### Changed
 - Update package dependencies.
 
