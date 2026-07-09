@@ -2,19 +2,16 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [2.0.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [2.0.0] - 2026-07-09
 ### Added
-- Add a connection health-check thunk that surfaces broken-connection errors through the shared connection-error notice.
-- Add an optional context prop to the connection error notice so consumers can name the affected feature above the shared cause and action.
+- Add a connection health-check thunk that surfaces broken-connection errors through the shared connection-error notice. [#50169]
+- Add an optional context prop to the connection error notice so consumers can name the affected feature above the shared cause and action. [#50169]
 
 ### Changed
-- Update package dependencies.
+- Update package dependencies. [#49272]
 
 ### Removed
-- Remove the deprecated InPlaceConnection component and its export.
+- Remove the deprecated InPlaceConnection component and its export. [#50321]
 
 ## [1.5.0] - 2026-07-06
 ### Changed
@@ -1424,7 +1421,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[2.0.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v1.5.0...v2.0.0-alpha
+[2.0.0]: https://github.com/Automattic/jetpack-connection-js/compare/v1.5.0...v2.0.0
 [1.5.0]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.66...v1.5.0
 [1.4.66]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.65...v1.4.66
 [1.4.65]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.64...v1.4.65
