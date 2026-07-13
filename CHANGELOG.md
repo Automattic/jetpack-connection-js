@@ -2,12 +2,9 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [2.0.1-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [2.0.1] - 2026-07-13
 ### Fixed
-- Disconnect UI: Fix owner disconnect dialog heading labeling and improve disconnect survey reliability.
+- Disconnect UI: Fix owner disconnect dialog heading labeling and improve disconnect survey reliability. [#50284]
 
 ## [2.0.0] - 2026-07-09
 ### Added
@@ -1428,7 +1425,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[2.0.1-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.0.0...v2.0.1-alpha
+[2.0.1]: https://github.com/Automattic/jetpack-connection-js/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/Automattic/jetpack-connection-js/compare/v1.5.0...v2.0.0
 [1.5.0]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.66...v1.5.0
 [1.4.66]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.65...v1.4.66
