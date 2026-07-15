@@ -7,6 +7,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Connection UI: TSX conversion and component updates.
 - Update package dependencies.
 
 ### Fixed
