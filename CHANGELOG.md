@@ -6,6 +6,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Update package dependencies.
+
 ### Fixed
 - Disconnect UI: Fix owner disconnect dialog heading labeling and improve disconnect survey reliability.
 
