@@ -6,13 +6,14 @@
 
 This is an alpha version! The changes listed here are not final.
 
-### Changed
-- Connection UI: Convert remaining component files to TS / TSX.
-- Connection UI: TSX conversion and component updates.
-- Update package dependencies.
-
 ### Removed
 - Connection UI: Unify error handling across Basic and Required Plan screens, modernize components, and remove the unused `ConnectUser` component.
+
+## [2.0.2] - 2026-07-20
+### Changed
+- UI: Convert component files to TSX and update components. [#50370] [#50543]
+- UI: Convert remaining component files to TS / TSX. [#50620]
+- Update package dependencies. [#50510] [#50529]
 
 ## [2.0.1] - 2026-07-13
 ### Fixed
@@ -1437,7 +1438,8 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[2.1.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.0.1...v2.1.0-alpha
+[2.1.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.0.2...v2.1.0-alpha
+[2.0.2]: https://github.com/Automattic/jetpack-connection-js/compare/v2.0.1...v2.0.2
 [2.0.1]: https://github.com/Automattic/jetpack-connection-js/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/Automattic/jetpack-connection-js/compare/v1.5.0...v2.0.0
 [1.5.0]: https://github.com/Automattic/jetpack-connection-js/compare/v1.4.66...v1.5.0
