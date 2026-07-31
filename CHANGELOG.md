@@ -2,10 +2,7 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [2.2.1-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [2.2.1] - 2026-07-31
 ### Changed
 - Connection UI: Make the disconnect survey a real radio group, drop the decorative arrow the options no longer need, and build the option cards on the shared Card component.
 
@@ -1447,7 +1444,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[2.2.1-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.2.0...v2.2.1-alpha
+[2.2.1]: https://github.com/Automattic/jetpack-connection-js/compare/v2.2.0...v2.2.1
 [2.2.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.1.0...v2.2.0
 [2.1.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.0.2...v2.1.0
 [2.0.2]: https://github.com/Automattic/jetpack-connection-js/compare/v2.0.1...v2.0.2
