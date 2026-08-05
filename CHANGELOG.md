@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Connection UI: Modernise the disconnect-confirm and thank-you step components.
+- Update package dependencies.
 
 ## [2.2.2] - 2026-08-03
 ### Changed
