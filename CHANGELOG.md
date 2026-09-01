@@ -2,13 +2,10 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [2.4.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [2.4.0] - 2026-09-01
 ### Changed
-- Type the connection script data's `wpcomUser` with the fields WordPress.com actually returns, including `ID` and `login`.
-- Update package dependencies.
+- Type the connection script data's `wpcomUser` with the fields WordPress.com actually returns, including `ID` and `login`. [#51673]
+- Update package dependencies. [#51303] [#51802]
 
 ## [2.3.2] - 2026-08-20
 ### Changed
@@ -1478,7 +1475,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[2.4.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.3.2...v2.4.0-alpha
+[2.4.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.3.2...v2.4.0
 [2.3.2]: https://github.com/Automattic/jetpack-connection-js/compare/v2.3.1...v2.3.2
 [2.3.1]: https://github.com/Automattic/jetpack-connection-js/compare/v2.3.0...v2.3.1
 [2.3.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.2.3...v2.3.0
