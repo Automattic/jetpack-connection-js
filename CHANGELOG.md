@@ -7,6 +7,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Disconnect dialog: Load the illustrations from the URL the Connection PHP package adds to the admin script data.
 - Update package dependencies.
 
 ## [2.5.0] - 2026-09-14
