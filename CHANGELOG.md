@@ -2,12 +2,9 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [2.5.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [2.5.0] - 2026-09-14
 ### Added
-- Connection errors: Derive the notice title, the grouped messages, their scope lines and any Site Health link in the package, so every consumer renders the same detail.
+- Connection errors: Derive the notice title, the grouped messages, their scope lines and any Site Health link in the package, so every consumer renders the same detail. [#51504]
 
 ## [2.4.2] - 2026-09-09
 ### Changed
@@ -1490,7 +1487,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[2.5.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.4.2...v2.5.0-alpha
+[2.5.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.4.2...v2.5.0
 [2.4.2]: https://github.com/Automattic/jetpack-connection-js/compare/v2.4.1...v2.4.2
 [2.4.1]: https://github.com/Automattic/jetpack-connection-js/compare/v2.4.0...v2.4.1
 [2.4.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.3.2...v2.4.0
