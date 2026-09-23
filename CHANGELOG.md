@@ -9,6 +9,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add ConnectionErrorDetails, for describing a connection error outside a notice, and rate each error for the viewer so the connection error notice shows a break only the connection owner can repair as a warning.
 
+### Fixed
+- Explain what to do when the connection store is registered more than once.
+
 ## [2.6.0] - 2026-09-23
 ### Added
 - Track clicks on the reconnect CTA and the Site Health and support links in the connection error notice. [#52617]
