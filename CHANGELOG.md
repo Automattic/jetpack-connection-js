@@ -2,15 +2,12 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [2.7.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [2.7.0] - 2026-09-23
 ### Added
-- Add ConnectionErrorDetails, for describing a connection error outside a notice, and rate each error for the viewer so the connection error notice shows a break only the connection owner can repair as a warning.
+- Add `ConnectionErrorDetails`, for describing a connection error outside a notice, and rate each error for the viewer so the connection error notice shows a break only the connection owner can repair as a warning. [#52130]
 
 ### Fixed
-- Explain what to do when the connection store is registered more than once.
+- Explain what to do when the connection store is registered more than once. [#51731]
 
 ## [2.6.0] - 2026-09-23
 ### Added
@@ -1514,7 +1511,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[2.7.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.6.0...v2.7.0-alpha
+[2.7.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.6.0...v2.7.0
 [2.6.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.5.3...v2.6.0
 [2.5.3]: https://github.com/Automattic/jetpack-connection-js/compare/v2.5.2...v2.5.3
 [2.5.2]: https://github.com/Automattic/jetpack-connection-js/compare/v2.5.1...v2.5.2
