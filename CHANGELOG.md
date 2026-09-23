@@ -2,6 +2,13 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
+## [2.6.0-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Added
+- Track clicks on the reconnect CTA and the Site Health and support links in the connection error notice.
+
 ## [2.5.3] - 2026-09-21
 ### Changed
 - Update dependencies.
@@ -1500,6 +1507,7 @@
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
+[2.6.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.5.3...v2.6.0-alpha
 [2.5.3]: https://github.com/Automattic/jetpack-connection-js/compare/v2.5.2...v2.5.3
 [2.5.2]: https://github.com/Automattic/jetpack-connection-js/compare/v2.5.1...v2.5.2
 [2.5.1]: https://github.com/Automattic/jetpack-connection-js/compare/v2.5.0...v2.5.1
