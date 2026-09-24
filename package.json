@@ -33,7 +33,7 @@
 	"dependencies": {
 		"@automattic/jetpack-analytics": "^1.0.16",
 		"@automattic/jetpack-api": "^2.0.0",
-		"@automattic/jetpack-components": "^3.2.1-alpha",
+		"@automattic/jetpack-components": "^3.3.0-alpha",
 		"@automattic/jetpack-config": "^1.1.0",
 		"@automattic/jetpack-script-data": "^0.6.8",
 		"@wordpress/api-fetch": "7.55.0",
@@ -51,7 +51,7 @@
 		"prop-types": "^15.7.2"
 	},
 	"devDependencies": {
-		"@automattic/jetpack-base-styles": "^1.2.14",
+		"@automattic/jetpack-base-styles": "^1.2.15-alpha",
 		"@babel/core": "7.29.7",
 		"@jest/globals": "30.5.1",
 		"@testing-library/dom": "10.4.2",
