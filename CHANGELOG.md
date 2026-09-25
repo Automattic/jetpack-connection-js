@@ -6,6 +6,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Export getUserConnectionUrl from a subpath that bundlers without SCSS support can import.
+
 ### Changed
 - Use logical CSS properties so layouts mirror in right-to-left languages.
 
