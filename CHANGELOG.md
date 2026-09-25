@@ -6,6 +6,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Use logical CSS properties so layouts mirror in right-to-left languages.
+
 ### Fixed
 - Show restore failures in connection error notices without the "ApiError:" prefix.
 
