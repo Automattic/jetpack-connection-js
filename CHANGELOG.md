@@ -2,11 +2,12 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [2.7.1-alpha] - unreleased
+## [2.8.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Disconnect dialog: On the plugins page, offer the survey before deactivating, including on sites where no user has connected.
 - Export getUserConnectionUrl from a subpath that bundlers without SCSS support can import.
 
 ### Changed
@@ -1524,7 +1525,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[2.7.1-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.7.0...v2.7.1-alpha
+[2.8.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.7.0...v2.8.0-alpha
 [2.7.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.6.0...v2.7.0
 [2.6.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.5.3...v2.6.0
 [2.5.3]: https://github.com/Automattic/jetpack-connection-js/compare/v2.5.2...v2.5.3
