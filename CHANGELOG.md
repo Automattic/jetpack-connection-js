@@ -2,19 +2,16 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [2.8.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [2.8.0] - 2026-09-28
 ### Added
-- Disconnect dialog: On the plugins page, offer the survey before deactivating, including on sites where no user has connected.
-- Export getUserConnectionUrl from a subpath that bundlers without SCSS support can import.
+- Disconnect dialog: On the plugins page, offer the survey before deactivating, including on sites where no user has connected. [#52828]
+- Export getUserConnectionUrl from a subpath that bundlers without SCSS support can import. [#52810]
 
 ### Changed
-- Use logical CSS properties so layouts mirror in right-to-left languages.
+- Use logical CSS properties so layouts mirror in right-to-left languages. [#52749]
 
 ### Fixed
-- Show restore failures in connection error notices without the "ApiError:" prefix.
+- Show restore failures in connection error notices without the "ApiError:" prefix. [#52718]
 
 ## [2.7.0] - 2026-09-23
 ### Added
@@ -1525,7 +1522,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[2.8.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.7.0...v2.8.0-alpha
+[2.8.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.7.0...v2.8.0
 [2.7.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.6.0...v2.7.0
 [2.6.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.5.3...v2.6.0
 [2.5.3]: https://github.com/Automattic/jetpack-connection-js/compare/v2.5.2...v2.5.3
