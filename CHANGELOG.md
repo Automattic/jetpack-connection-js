@@ -2,6 +2,10 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
+## [2.9.1-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
 ## [2.9.0] - 2026-09-29
 ### Added
 - Add protected owner selectors and types to the connection store. [#52861]
@@ -1526,6 +1530,7 @@
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
+[2.9.1-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.9.0...v2.9.1-alpha
 [2.9.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.8.0...v2.9.0
 [2.8.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.7.0...v2.8.0
 [2.7.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.6.0...v2.7.0
