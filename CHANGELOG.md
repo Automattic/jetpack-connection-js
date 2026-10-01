@@ -7,6 +7,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add a dialog for the confirmed owner to release protected ownership of a site.
 - Connection: Add a confirmation dialog an administrator uses to become the protected owner.
 
 ## [2.9.0] - 2026-09-29
