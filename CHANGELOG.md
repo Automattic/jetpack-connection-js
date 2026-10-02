@@ -10,6 +10,9 @@ This is an alpha version! The changes listed here are not final.
 - Add a dialog for the confirmed owner to release protected ownership of a site.
 - Connection: Add a confirmation dialog an administrator uses to become the protected owner.
 
+### Removed
+- Remove the `includeHealthErrors` option from `useConnectionErrorNotice` and `ConnectionError`, along with the connection health-check store state and selector. `runConnectionHealthCheck` is now a deprecated no-op.
+
 ## [2.9.0] - 2026-09-29
 ### Added
 - Add protected owner selectors and types to the connection store. [#52861]
