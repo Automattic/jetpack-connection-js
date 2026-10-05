@@ -2,16 +2,16 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [2.10.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [2.10.0] - 2026-10-05
 ### Added
-- Add a dialog for the confirmed owner to release protected ownership of a site.
-- Connection: Add a confirmation dialog an administrator uses to become the protected owner.
+- Add a confirmation dialog an administrator uses to become the protected owner. [#52980]
+- Add a dialog for the confirmed owner to release protected ownership of a site. [#53028]
+
+### Deprecated
+- Deprecate `runConnectionHealthCheck`, which is now a no-op. [#52977]
 
 ### Removed
-- Remove the `includeHealthErrors` option from `useConnectionErrorNotice` and `ConnectionError`, along with the connection health-check store state and selector. `runConnectionHealthCheck` is now a deprecated no-op.
+- Remove the `includeHealthErrors` option from `useConnectionErrorNotice` and `ConnectionError`, along with the connection health-check store state and selector. [#52977]
 
 ## [2.9.0] - 2026-09-29
 ### Added
@@ -1537,7 +1537,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[2.10.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.9.0...v2.10.0-alpha
+[2.10.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.9.0...v2.10.0
 [2.9.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.8.0...v2.9.0
 [2.8.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.7.0...v2.8.0
 [2.7.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.6.0...v2.7.0
