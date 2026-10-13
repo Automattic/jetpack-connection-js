@@ -2,6 +2,13 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
+## [2.12.0-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Added
+- Add a component for transferring connection ownership, and offer it from the manage connection dialog instead of linking out to WordPress.com. The connection owner can now be updated in the store, so surfaces reflect a transfer without a page reload.
+
 ## [2.11.0] - 2026-10-06
 ### Fixed
 - Checkout workflow: Stop the busy state and return a checkoutError when site registration or the product lookup fails, and show an error on the Required Plan connect screen. [#53069]
@@ -1541,6 +1548,7 @@
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
+[2.12.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.11.0...v2.12.0-alpha
 [2.11.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.10.0...v2.11.0
 [2.10.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.9.0...v2.10.0
 [2.9.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.8.0...v2.9.0
