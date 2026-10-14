@@ -2,13 +2,10 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [2.12.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [2.12.0] - 2026-10-14
 ### Added
-- Add a component for transferring connection ownership, and offer it from the manage connection dialog instead of linking out to WordPress.com. The connection owner can now be updated in the store, so surfaces reflect a transfer without a page reload.
-- Add the registration failure reason to the connection status type.
+- Add a component for transferring connection ownership, and offer it from the manage connection dialog instead of linking out to WordPress.com. The connection owner can now be updated in the store, so surfaces reflect a transfer without a page reload. [#53359]
+- Add the registration failure reason to the connection status type. [#51177]
 
 ## [2.11.1] - 2026-10-12
 ### Changed
@@ -1553,7 +1550,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[2.12.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.11.1...v2.12.0-alpha
+[2.12.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.11.1...v2.12.0
 [2.11.1]: https://github.com/Automattic/jetpack-connection-js/compare/v2.11.0...v2.11.1
 [2.11.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.10.0...v2.11.0
 [2.10.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.9.0...v2.10.0
