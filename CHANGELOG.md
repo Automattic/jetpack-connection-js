@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add a component for transferring connection ownership, and offer it from the manage connection dialog instead of linking out to WordPress.com. The connection owner can now be updated in the store, so surfaces reflect a transfer without a page reload.
+- Add the registration failure reason to the connection status type.
 
 ## [2.11.0] - 2026-10-06
 ### Fixed
