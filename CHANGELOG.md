@@ -2,9 +2,12 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [2.12.1-alpha] - unreleased
+## [2.13.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- Transfer connection ownership to another connected administrator from the Connectors page.
 
 ### Changed
 - Update package dependencies.
@@ -1557,7 +1560,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[2.12.1-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.12.0...v2.12.1-alpha
+[2.13.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.12.0...v2.13.0-alpha
 [2.12.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.11.1...v2.12.0
 [2.11.1]: https://github.com/Automattic/jetpack-connection-js/compare/v2.11.0...v2.11.1
 [2.11.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.10.0...v2.11.0
