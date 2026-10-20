@@ -6,6 +6,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Add `isInSafeMode` to the connection status type and the local `displayName` and `email` to the current user type.
+
 ## [2.13.1] - 2026-10-19
 ### Changed
 - Update package dependencies. [#53806]
