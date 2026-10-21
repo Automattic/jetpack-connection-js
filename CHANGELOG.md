@@ -7,6 +7,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add `getTracksIdentity()` and `initializeTracksIdentity()` helpers that identify the viewer to Tracks by their WordPress.com account.
 - Connect screen and ConnectButton: Show clear messages for every registration failure (WordPress.com rejected or couldn't verify the site, the site's own REST request failed, or the site couldn't reach WordPress.com), with the underlying cause underneath when it helps (for example the network error).
 
 ## [2.13.2] - 2026-10-20
