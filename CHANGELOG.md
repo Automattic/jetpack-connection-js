@@ -2,9 +2,12 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [2.13.3-alpha] - unreleased
+## [2.14.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- Connect screen and ConnectButton: Show clear messages for every registration failure (WordPress.com rejected or couldn't verify the site, the site's own REST request failed, or the site couldn't reach WordPress.com), with the underlying cause underneath when it helps (for example the network error).
 
 ## [2.13.2] - 2026-10-20
 ### Changed
@@ -1570,7 +1573,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[2.13.3-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.13.2...v2.13.3-alpha
+[2.14.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.13.2...v2.14.0-alpha
 [2.13.2]: https://github.com/Automattic/jetpack-connection-js/compare/v2.13.1...v2.13.2
 [2.13.1]: https://github.com/Automattic/jetpack-connection-js/compare/v2.13.0...v2.13.1
 [2.13.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.12.1...v2.13.0
