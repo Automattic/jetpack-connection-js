@@ -11,6 +11,9 @@ This is an alpha version! The changes listed here are not final.
 - Connect screen and ConnectButton: Show clear messages for every registration failure (WordPress.com rejected or couldn't verify the site, the site's own REST request failed, or the site couldn't reach WordPress.com), with the underlying cause underneath when it helps (for example the network error).
 - Support React 19.
 
+### Changed
+- Update package dependencies.
+
 ## [2.13.2] - 2026-10-20
 ### Changed
 - Add `isInSafeMode` to the connection status type and the local `displayName` and `email` to the current user type. [#53785]
