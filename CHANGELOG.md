@@ -9,6 +9,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add `getTracksIdentity()` and `initializeTracksIdentity()` helpers that identify the viewer to Tracks by their WordPress.com account.
 - Ask for confirmation before disconnecting your user account, and offer to transfer ownership first when you own the connection.
+- Connection error notice: Add a ConnectionErrorView component that renders an existing useConnectionErrorNotice() result, and let the reconnect flow return to a chosen page via `reconnectRedirectUrl` and `reconnectFrom`.
 - Connect screen and ConnectButton: Show clear messages for every registration failure (WordPress.com rejected or couldn't verify the site, the site's own REST request failed, or the site couldn't reach WordPress.com), with the underlying cause underneath when it helps (for example the network error).
 - Support React 19.
 
