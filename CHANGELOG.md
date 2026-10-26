@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Support React 19.
 
 ### Changed
+- Describe the ownership lock from one place, so a badge and the confirmation dialog cannot say it differently, and name the owner disconnect dialog in sentence case.
 - Update package dependencies.
 
 ## [2.13.2] - 2026-10-20
