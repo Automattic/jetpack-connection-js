@@ -7,6 +7,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add a get-calypso-origin subpath export, so a bundle can get the Calypso origin without loading the connection store.
 - Add `getTracksIdentity()` and `initializeTracksIdentity()` helpers that identify the viewer to Tracks by their WordPress.com account.
 - Ask for confirmation before disconnecting your user account, and offer to transfer ownership first when you own the connection.
 - Connection error notice: Add a ConnectionErrorView component that renders an existing useConnectionErrorNotice() result, and let the reconnect flow return to a chosen page via `reconnectRedirectUrl` and `reconnectFrom`.
