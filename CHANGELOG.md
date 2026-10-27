@@ -2,6 +2,16 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
+## [2.15.0-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Added
+- Add a refreshConnectionStatus() store action that reads the site's connection status from the server again.
+
+### Fixed
+- Record the offline mode that setIsOfflineMode() is given.
+
 ## [2.14.0] - 2026-10-26
 ### Added
 - Add a get-calypso-origin subpath export, so a bundle can get the Calypso origin without loading the connection store. [#53721]
@@ -1579,6 +1589,7 @@
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
+[2.15.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.14.0...v2.15.0-alpha
 [2.14.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.13.2...v2.14.0
 [2.13.2]: https://github.com/Automattic/jetpack-connection-js/compare/v2.13.1...v2.13.2
 [2.13.1]: https://github.com/Automattic/jetpack-connection-js/compare/v2.13.0...v2.13.1
