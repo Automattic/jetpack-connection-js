@@ -53,7 +53,7 @@
 		"prop-types": "^15.7.2"
 	},
 	"devDependencies": {
-		"@automattic/jetpack-base-styles": "^1.2.19",
+		"@automattic/jetpack-base-styles": "^1.2.20-alpha",
 		"@babel/core": "7.29.7",
 		"@jest/globals": "30.5.2",
 		"@testing-library/dom": "10.4.2",
