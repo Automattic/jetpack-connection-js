@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add a refreshConnectionStatus() store action that reads the site's connection status from the server again.
+- Tracking: Add trackConnectionEvent() and bumpConnectionStat() helpers, and record Tracks events from the ownership transfer, owner disconnect and protected owner dialogs.
 
 ### Fixed
 - Record the offline mode that setIsOfflineMode() is given.
