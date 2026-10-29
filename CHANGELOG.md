@@ -2,9 +2,12 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [2.15.1-alpha] - unreleased
+## [2.16.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Tracking: Send a null context instead of `jetpack-dashboard` when the connection dialogs get none, and add a ConnectionPlacement placement option to the dialogs, the ownership transfer and the error notice.
 
 ### Fixed
 - Show connection owner and administrator names containing characters like & correctly.
@@ -1594,7 +1597,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[2.15.1-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.15.0...v2.15.1-alpha
+[2.16.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.15.0...v2.16.0-alpha
 [2.15.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.14.0...v2.15.0
 [2.14.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.13.2...v2.14.0
 [2.13.2]: https://github.com/Automattic/jetpack-connection-js/compare/v2.13.1...v2.13.2
