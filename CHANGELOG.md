@@ -2,17 +2,20 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [2.15.0-alpha] - unreleased
+## [2.15.1-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
+### Fixed
+- Show connection owner and administrator names containing characters like & correctly.
+
+## [2.15.0] - 2026-10-28
 ### Added
-- Add a refreshConnectionStatus() store action that reads the site's connection status from the server again.
-- Tracking: Add trackConnectionEvent() and bumpConnectionStat() helpers, and record Tracks events from the ownership transfer, owner disconnect and protected owner dialogs.
+- Add a refreshConnectionStatus() store action that reads the site's connection status from the server again. [#53941]
+- Tracking: Add trackConnectionEvent() and bumpConnectionStat() helpers, and record Tracks events from the ownership transfer, owner disconnect and protected owner dialogs. [#54059]
 
 ### Fixed
-- Record the offline mode that setIsOfflineMode() is given.
-- Show connection owner and administrator names containing characters like & correctly.
+- Record the offline mode that setIsOfflineMode() is given. [#53941]
 
 ## [2.14.0] - 2026-10-26
 ### Added
@@ -1591,7 +1594,8 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[2.15.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.14.0...v2.15.0-alpha
+[2.15.1-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.15.0...v2.15.1-alpha
+[2.15.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.14.0...v2.15.0
 [2.14.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.13.2...v2.14.0
 [2.13.2]: https://github.com/Automattic/jetpack-connection-js/compare/v2.13.1...v2.13.2
 [2.13.1]: https://github.com/Automattic/jetpack-connection-js/compare/v2.13.0...v2.13.1
