@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Record the offline mode that setIsOfflineMode() is given.
+- Show connection owner and administrator names containing characters like & correctly.
 
 ## [2.14.0] - 2026-10-26
 ### Added
