@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Tracking: Send a null context instead of `jetpack-dashboard` when the connection dialogs get none, and add a ConnectionPlacement placement option to the dialogs, the ownership transfer and the error notice.
+- Update package dependencies.
 
 ### Fixed
 - Show connection owner and administrator names containing characters like & correctly.
