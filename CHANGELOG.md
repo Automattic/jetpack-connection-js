@@ -2,6 +2,13 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
+## [2.16.1-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Update package dependencies.
+
 ## [2.16.0] - 2026-11-02
 ### Changed
 - Tracking: Send a null context instead of `jetpack-dashboard` when the connection dialogs get none, and add a ConnectionPlacement placement option to the dialogs, the ownership transfer and the error notice. [#54214]
@@ -1593,6 +1600,7 @@
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
+[2.16.1-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.16.0...v2.16.1-alpha
 [2.16.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.15.0...v2.16.0
 [2.15.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.14.0...v2.15.0
 [2.14.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.13.2...v2.14.0
