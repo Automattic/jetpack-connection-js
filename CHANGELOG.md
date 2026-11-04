@@ -2,9 +2,12 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [2.16.1-alpha] - unreleased
+## [2.17.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- Add CONNECTION_FROM entry-point names with isStandardEntryPoint() and isUnifiedConnectionFlow(), and warn in development when a connect link has no `from`, a legacy `from`, or no return URL.
 
 ### Changed
 - Update package dependencies.
@@ -1600,7 +1603,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[2.16.1-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.16.0...v2.16.1-alpha
+[2.17.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.16.0...v2.17.0-alpha
 [2.16.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.15.0...v2.16.0
 [2.15.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.14.0...v2.15.0
 [2.14.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.13.2...v2.14.0
