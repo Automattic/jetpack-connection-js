@@ -2,9 +2,12 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [2.18.1-alpha] - unreleased
+## [2.19.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- Add a connection name for the Monetize dashboard, and export the connection names on their own.
 
 ### Fixed
 - Send connection requests to the site's REST API even before a connection component has rendered.
@@ -1611,7 +1614,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[2.18.1-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.18.0...v2.18.1-alpha
+[2.19.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.18.0...v2.19.0-alpha
 [2.18.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.17.0...v2.18.0
 [2.17.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.16.0...v2.17.0
 [2.16.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.15.0...v2.16.0
