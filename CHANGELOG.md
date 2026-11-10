@@ -10,6 +10,7 @@ This is an alpha version! The changes listed here are not final.
 - Add a connection name for the Monetize dashboard, and export the connection names on their own.
 
 ### Fixed
+- Fix the connect button getting stuck when the authorization URL fails to load, and show the error on the shared connect screens.
 - Send connection requests to the site's REST API even before a connection component has rendered.
 
 ## [2.18.0] - 2026-11-06
