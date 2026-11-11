@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add a connection name for the Monetize dashboard, and export the connection names on their own.
+- Add a connection name for the Monetize Settings tab.
 
 ### Changed
 - Update package dependencies.
