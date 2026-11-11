@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Fix the connect button getting stuck when the authorization URL fails to load, and show the error on the shared connect screens.
+- Restore Connection: Keep the progress indicator on screen until the redirect to WordPress.com.
 - Send connection requests to the site's REST API even before a connection component has rendered.
 
 ## [2.18.0] - 2026-11-06
