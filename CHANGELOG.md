@@ -2,22 +2,19 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
-## [2.19.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [2.19.0] - 2026-11-16
 ### Added
-- Add a connection name for the Monetize dashboard, and export the connection names on their own.
-- Add a connection name for the Monetize Settings tab.
+- Add a connection name for the Monetize dashboard, and export the connection names on their own. [#54684]
+- Add a connection name for the Monetize Settings tab. [#54662]
 
 ### Changed
-- Update package dependencies.
+- Update package dependencies. [#54703]
 
 ### Fixed
-- Connect prompt: Only offer to make the viewer the connection owner when connecting would do so.
-- Fix the connect button getting stuck when the authorization URL fails to load, and show the error on the shared connect screens.
-- Restore Connection: Keep the progress indicator on screen until the redirect to WordPress.com.
-- Send connection requests to the site's REST API even before a connection component has rendered.
+- Connect prompt: Only offer to make the viewer the connection owner when connecting would do so. [#54469]
+- Fix the connect button getting stuck when the authorization URL fails to load, and show the error on the shared connect screens. [#54613]
+- Restore Connection: Keep the progress indicator on screen until the redirect to WordPress.com. [#54744]
+- Send connection requests to the site's REST API even before a connection component has rendered. [#54655]
 
 ## [2.18.0] - 2026-11-06
 ### Added
@@ -1621,7 +1618,7 @@ This is an alpha version! The changes listed here are not final.
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
-[2.19.0-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.18.0...v2.19.0-alpha
+[2.19.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.18.0...v2.19.0
 [2.18.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.17.0...v2.18.0
 [2.17.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.16.0...v2.17.0
 [2.16.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.15.0...v2.16.0
