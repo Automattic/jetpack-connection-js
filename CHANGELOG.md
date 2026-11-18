@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add a getIdentityCrisis selector for the Safe Mode state.
+- Add a `from` option to useIdentityCrisisActions(), and connection_safe_mode_notice and my_jetpack_safe_mode to CONNECTION_FROM.
 - Add the building blocks for the new Safe Mode screen: an actions hook, a layout, an address diagram, migrated and non-admin views, and error messages that name the cause.
 
 ## [2.19.1] - 2026-11-17
