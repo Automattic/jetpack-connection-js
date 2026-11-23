@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 - Add a `from` option to useIdentityCrisisActions(), and connection_safe_mode_notice and my_jetpack_safe_mode to CONNECTION_FROM.
 - Add the building blocks for the new Safe Mode screen: an actions hook, a layout, an address diagram, migrated and non-admin views, and error messages that name the cause.
 - Safe Mode: Add the question flow to the new Safe Mode screen.
+- Safe Mode: Let the new Safe Mode screen run on the Connectors card, including on a site where Safe Mode is already confirmed.
 
 ## [2.19.1] - 2026-11-17
 ### Changed
