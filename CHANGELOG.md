@@ -7,6 +7,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Safe Mode: Add the "Another address for this same site" answer and its result to the new Safe Mode screen.
 - Safe Mode screen: Leave or reload the page after an action by default, and export onIdentityCrisisActionSuccess for hosts that change one action.
 
 ## [2.20.0] - 2026-11-23
