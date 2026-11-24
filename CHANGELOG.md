@@ -2,6 +2,13 @@
 
 ### This is a list detailing changes for the Jetpack RNA Connection Component releases.
 
+## [2.20.1-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Added
+- Safe Mode screen: Leave or reload the page after an action by default, and export onIdentityCrisisActionSuccess for hosts that change one action.
+
 ## [2.20.0] - 2026-11-23
 ### Added
 - Add a getIdentityCrisis selector for the Safe Mode state. [#55014]
@@ -1630,6 +1637,7 @@
 - `Main` and `ConnectUser` components added.
 - `JetpackRestApiClient` API client added.
 
+[2.20.1-alpha]: https://github.com/Automattic/jetpack-connection-js/compare/v2.20.0...v2.20.1-alpha
 [2.20.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.19.1...v2.20.0
 [2.19.1]: https://github.com/Automattic/jetpack-connection-js/compare/v2.19.0...v2.19.1
 [2.19.0]: https://github.com/Automattic/jetpack-connection-js/compare/v2.18.0...v2.19.0
