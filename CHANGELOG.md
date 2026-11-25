@@ -7,6 +7,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Safe Mode: Add a step-by-step guide to the new Safe Mode screen, for administrators who are not sure which answer fits.
 - Safe Mode: Add the "Another address for this same site" answer and its result to the new Safe Mode screen.
 - Safe Mode: Tell the admin when a failed fresh connection has left the site disconnected.
 - Safe Mode screen: Leave or reload the page after an action by default, and export onIdentityCrisisActionSuccess for hosts that change one action.
