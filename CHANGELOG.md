@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Safe Mode screen: Leave or reload the page after an action by default, and export onIdentityCrisisActionSuccess for hosts that change one action.
 
 ### Changed
+- Safe Mode: Improve the design of the new screen, behind a feature flag, and disable a host's own actions while an action runs.
 - Share one set of messages for failed requests to the site’s REST API between the connect screen and Safe Mode, worded to fit any request.
 
 ### Fixed
