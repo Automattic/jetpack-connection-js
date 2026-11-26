@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 - Safe Mode: Tell the admin when a failed fresh connection has left the site disconnected.
 - Safe Mode screen: Leave or reload the page after an action by default, and export onIdentityCrisisActionSuccess for hosts that change one action.
 
+### Changed
+- Share one set of messages for failed requests to the site’s REST API between the connect screen and Safe Mode, worded to fit any request.
+
 ### Fixed
 - Safe Mode: On the new screen, behind the `connection-idc-screen` flag, keep offering only Try again once a failed fresh connection has disconnected the site, also after a later failure or reopening the screen, and only Reload once the site has left Safe Mode in another tab.
 
